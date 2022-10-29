@@ -1,0 +1,13 @@
+#root {
+  max-width: 1920px;
+  margin: auto  ;
+}
+
+.App{
+  width: 100%;
+}
+
+.otherPages{
+  flex : 4;
+  background-color: darkcyan;
+}

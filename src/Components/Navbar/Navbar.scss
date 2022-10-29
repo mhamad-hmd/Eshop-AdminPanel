@@ -1,0 +1,34 @@
+
+.topBar{
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    height: 50px;
+}
+
+.badge {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    top: -5px;
+    right: 0;
+}
+
+svg{
+    background-color: 5555;
+}
+
+.topAvatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
